@@ -43,17 +43,22 @@ Given more time, feature encoding, early stopping, and hyperparameter tuning wou
 
 ## Files & Structure
 ```
-GradientBoostingProject/
+Project2/
 ├── data/
-│   └── ibm_attrition.csv
+│   ├── generate_data.py
+│   ├── ibm_attrition.csv
+│   └── synthetic_data.csv
 ├── models/
 │   ├── gradient_boost.py
 │   └── regression_tree.py
 ├── tests/
+│   ├── __init__.py
 │   └── test_model.py
 ├── utils/
 │   └── metrics.py
-└── README.md
+├── confusion_matrix.png
+├── README.md
+└── roc_curve.png
 ```
 
 ## Credits
