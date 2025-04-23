@@ -33,7 +33,7 @@ We also used 80/20 train-test splitting and ensured robustness through reproduci
 python tests/test_model.py
 ```
 
-## Are there specific inputs your model has trouble with?
+## Are there specific inputs your model has trouble with ?
 
 - Highly imbalanced data may reduce recall without tuning.
 - Noisy or irrelevant features may lead to overfitting if trees are deep.
